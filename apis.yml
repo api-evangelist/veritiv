@@ -1,0 +1,75 @@
+aid: veritiv
+name: Veritiv
+description: |-
+  Veritiv is a North American business-to-business distributor of packaging, facility
+  solutions, print, and publishing products. Formed in July 2014 through the merger of
+  International Paper's xpedx division with Unisource Worldwide, Veritiv operated as a
+  publicly traded company on the New York Stock Exchange until it was acquired and
+  taken private by Clayton, Dubilier & Rice (CD&R) in November 2023 in a transaction
+  valued at approximately $2.3 billion. The company is headquartered in Sandy Springs,
+  Georgia, and operates roughly 125 distribution centers across the United States and
+  Mexico. Veritiv does not publish any public developer APIs, OpenAPI specifications,
+  SDKs, or a developer portal — its commercial surface is built around sales reps,
+  account managers, and large-account customer portals rather than a programmable API.
+image: https://avatars.githubusercontent.com/u/veritiv
+url: https://github.com/api-evangelist/veritiv
+created: 2026-05-23
+modified: 2026-05-23
+specificationVersion: "0.16"
+tags:
+  - Packaging
+  - Facility Solutions
+  - Print
+  - Publishing
+  - Distribution
+  - B2B
+  - Supply Chain
+  - Janitorial Sanitation
+  - Foodservice Packaging
+  - Industrial Packaging
+  - No Public API
+  - Private Equity Owned
+apis: []
+common:
+  - type: WebSite
+    url: https://www.veritiv.com
+  - type: Packaging
+    url: https://www.veritiv.com/packaging-paper-facility-solutions
+  - type: AboutUs
+    url: https://www.veritiv.com/about-us
+  - type: ContactUs
+    url: https://www.veritiv.com/contact-us
+  - type: Careers
+    url: https://www.veritiv.com/careers
+  - type: NewsRoom
+    url: https://www.veritiv.com/newsroom
+  - type: GitHubOrg
+    url: https://github.com/veritiv
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/veritiv-corporation
+  - type: WikipediaProfile
+    url: https://en.wikipedia.org/wiki/Veritiv
+  - type: ParentCompany
+    url: https://www.cdr.com
+  - type: AcquisitionAnnouncement
+    url: https://www.cdr.com/news/clayton-dubilier-rice-complete-acquisition-veritiv-corporation
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+x-common:
+  - type: x-status
+    value: no-public-api
+  - type: x-ownership
+    value: private-cdr-acquired-2023-11
+  - type: x-acquisition-value
+    value: "$2.3 billion"
+  - type: x-formed
+    value: "2014-07 from xpedx + Unisource merger"
+  - type: x-headquarters
+    value: Sandy Springs, Georgia, USA
+  - type: x-distribution-centers
+    value: "~125 across US and Mexico"
+  - type: x-former-stock-symbol
+    value: "VRTV (NYSE, delisted Nov 2023)"
+  - type: x-github-org-public
+    value: "false (org exists, zero public repos)"
