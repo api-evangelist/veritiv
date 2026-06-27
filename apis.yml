@@ -31,7 +31,7 @@ tags:
   - Private Equity Owned
 apis: []
 common:
-  - type: WebSite
+  - type: Website
     url: https://www.veritiv.com
   - type: Packaging
     url: https://www.veritiv.com/packaging-paper-facility-solutions
