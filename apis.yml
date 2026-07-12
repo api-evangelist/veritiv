@@ -31,6 +31,8 @@ tags:
   - Private Equity Owned
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/veritiv-domain-security.yml
   - type: Website
     url: https://www.veritiv.com
   - type: Packaging
