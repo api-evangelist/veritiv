@@ -11,6 +11,17 @@ description: |-
   Mexico. Veritiv does not publish any public developer APIs, OpenAPI specifications,
   SDKs, or a developer portal — its commercial surface is built around sales reps,
   account managers, and large-account customer portals rather than a programmable API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://avatars.githubusercontent.com/u/veritiv
 url: https://github.com/api-evangelist/veritiv
 created: 2026-05-23
