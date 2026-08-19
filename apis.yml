@@ -26,7 +26,7 @@ image: https://avatars.githubusercontent.com/u/veritiv
 url: https://github.com/api-evangelist/veritiv
 created: 2026-05-23
 modified: 2026-05-23
-specificationVersion: "0.16"
+specificationVersion: '0.23'
 tags:
   - Packaging
   - Facility Solutions
