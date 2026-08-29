@@ -11,6 +11,17 @@ description: |-
   Mexico. Veritiv does not publish any public developer APIs, OpenAPI specifications,
   SDKs, or a developer portal — its commercial surface is built around sales reps,
   account managers, and large-account customer portals rather than a programmable API.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
