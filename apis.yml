@@ -36,7 +36,7 @@ accessModel:
 image: https://avatars.githubusercontent.com/u/veritiv
 url: https://github.com/api-evangelist/veritiv
 created: 2026-05-23
-modified: 2026-05-23
+modified: '2026-10-06'
 specificationVersion: '0.23'
 tags:
   - Packaging
@@ -53,6 +53,8 @@ tags:
   - Private Equity Owned
 apis: []
 common:
+  - url: https://www.veritiv.com/blog
+    type: Blog
   - type: DomainSecurity
     url: security/veritiv-domain-security.yml
   - type: Website
