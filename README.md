@@ -64,59 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Veritiv is a North American business-to-business distributor of packaging, facility
-solutions, print, and publishing products. Formed in July 2014 through the merger of
-International Paper's xpedx division with Unisource Worldwide, the company operated
-as a publicly traded business on the New York Stock Exchange (ticker `VRTV`) until
-November 2023, when private equity firm **Clayton, Dubilier & Rice (CD&R) completed
-its acquisition of Veritiv for approximately $2.3 billion** and took the company
-private. Veritiv is headquartered in Sandy Springs, Georgia, and operates roughly
-125 distribution centers across the United States and Mexico.
+Veritiv is a North American business-to-business distributor of packaging, facility solutions, print, and publishing products. Formed in July 2014 through the merger of International Paper's xpedx division with Unisource Worldwide, Veritiv operated as a publicly traded company on the New York Stock Exchange until it was acquired and taken private by Clayton, Dubilier & Rice (CD&R) in November 2023 in a transaction valued at approximately $2.3 billion. The company is headquartered in Sandy Springs, Georgia, and operates roughly 125 distribution centers across the United States and Mexico. Veritiv does not publish any public developer APIs, OpenAPI specifications, SDKs, or a developer portal — its commercial surface is built around sales reps, account managers, and large-account customer portals rather than a programmable API.
 
-This API Evangelist profile exists to record the **absence** of a public developer
-surface for Veritiv: there is no published OpenAPI specification, no developer portal,
-no SDKs, no CLI, and no public GitHub organization with code. The `github.com/veritiv`
-organization exists but contains zero public repositories. Veritiv's commercial
-relationships are mediated through field sales, account managers, and large-account
-customer portals — not through programmable APIs.
+**Areas:** Packaging · Facility Solutions · Print · Publishing · Distribution · B2B · Supply Chain · Janitorial Sanitation · Foodservice Packaging · Industrial Packaging · Private Equity Owned
 
-## Business Segments
+## Veritiv on APIs.io
 
-- **Packaging** — industrial, retail, and e-commerce packaging; design services
-- **Facility Solutions** — cleaning, janitorial, sanitation, foodservice, safety supplies
-- **Print** — commercial print papers and substrates
-- **Publishing** — paper for book, magazine, and catalog publishers
-- **Logistics** — distribution, warehousing, and fulfillment
+Everything profiled for Veritiv is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/veritiv/](https://apis.io/providers/veritiv/)** — or go straight to one of the APIs or properties below.
 
-## Ownership
+### Published properties
 
-| Field | Value |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Veritiv Domain Security](https://apis.io/security/veritiv/veritiv-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.veritiv.com)
+- [Blog](https://www.veritiv.com/blog)
+
+## API Evangelist rating
+
+**Kin Score 4.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| Owner | Clayton, Dubilier & Rice (CD&R) |
-| Acquisition closed | November 2023 |
-| Transaction value | ~$2.3 billion |
-| Prior status | Public, NYSE: `VRTV` (delisted) |
-| Formation | July 2014 (xpedx + Unisource merger) |
-| Headquarters | Sandy Springs, Georgia, USA |
-| Distribution centers | ~125 (US and Mexico) |
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
 
-## API Surface
+**Agent readiness 0.0** — human-only
 
-**None.** No `apis:` entries are listed in `apis.yml`. If Veritiv publishes a
-developer program under CD&R ownership in the future, this profile will be updated.
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Artifacts in this repository
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-- `apis.yml` — provider metadata, common URLs, and the explicit `no-public-api` status flag.
-- `README.md` — this file.
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/veritiv/](https://apis.io/providers/veritiv/).
 
-No `openapi/`, `capabilities/`, `json-schema/`, `examples/`, `rules/`, `plans/`,
-`rate-limits/`, or `finops/` artifacts are present, because there is no public API
-surface to back them.
+## How this profile is made
 
-## Sources
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- [veritiv.com](https://www.veritiv.com)
-- [CD&R acquisition announcement](https://www.cdr.com/news/clayton-dubilier-rice-complete-acquisition-veritiv-corporation)
-- [Wikipedia — Veritiv](https://en.wikipedia.org/wiki/Veritiv)
-- [github.com/veritiv](https://github.com/veritiv) (no public repos)
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Veritiv: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/veritiv/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
